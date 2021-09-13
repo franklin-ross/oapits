@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "lib": ["ES2019"],
+    "module": "commonjs",
+    "noEmit": true,
+    "strict": true,
+    "target": "ES2019",
+    "types": ["node"],
+    "newLine": "lf"
+  },
+  "include": ["./src/**/*", "./tests/**/*"]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "oapits",
+  "version": "0.1.0",
+  "description": "Generate ergonomic Typescript definitions from OpenAPI contracts.",
+  "main": "lib/index.js",
+  "bin": {
+    "oapits": "./index.js"
+  },
+  "keywords": [
+    "typescript",
+    "openapi",
+    "swagger",
+    "type",
+    "types",
+    "definition",
+    "generation",
+    "generator"
+  ],
+  "scripts": {
+    "start": "ts-node src/cli",
+    "build:lib": "tsc -p tsconfig.lib.json"
+  },
+  "dependencies": {
+    "@apidevtools/json-schema-ref-parser": "^9.0.9",
+    "commander": "^7.2.0",
+    "json-schema-to-typescript": "^10.1.4",
+    "node-fetch": "^2.6.1",
+    "tslib": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.60",
+    "@types/node-fetch": "^2.5.10",
+    "prettier": "^2.3.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "author": "Franklin Ross <fhross@gmail.com>",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true
+  }
+}
